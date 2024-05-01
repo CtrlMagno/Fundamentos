@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    overflow: auto;
+}
+
+h3{
+    color: gray;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sponsors h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.sponsors hr {
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    margin-left: 677px;
+    margin-top: 80px;
+    width: 168px;
+    height: 7px;
+}
+
+.sponsors .pictures {
+    display: flex;
+    width: 20%;
+    height: 90px;
+    padding: 1rem;
+}
+
+.sponsors .pictures ul {
+    display: flex;
+    margin-left: 430px;
+    width: 100%;
+    gap: 3rem;
+}
+
+.sponsors .pictures ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.sponsors .pictures img {
+    height: 60px;
+    margin-top: 200px;
+    justify-content: center;
+    padding: 8px 0;
+    aspect-ratio: 6/3;
+    cursor: pointer;
+}
+
+.sponsors .line {
+    margin-top: 400px;
+    margin-bottom: 100px;
+    margin-left: 678px;
+} 
+
+.sponsors button {
+    color: white;
+    margin-left: 615px;
+    margin-top: 1000px;
+    background-color: #525252;
+}
+
+.info .article h4 {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-left: 505px;
+    font-size: 24px;
+}
+
+.info .text p {
+    width: 30%;
+    margin-left: 505px;
+    justify-content: flex-start;
+}
+
+.info img {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    width: 20%;
+}
+
+.info .article .cat {
+    text-shadow: 2px 2px 15px orange;
+    margin-top: -400px;
+    margin-bottom: 200px;
+    margin-left: 820px;
+    font-size: 70px;
+}
+
+.article .line {
+    background-color: orange;
+    border: none;
+    border-radius: 2px;
+    width: 168px;
+    height: 7px;
+    margin-left: 677px;
+}
+
+.section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.info .article2 h4 {
+    font-size: 24px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+.info .article2 .text p {
+    width: 25%;
+    margin-left: 200px;
+}
+
+.info .article2 h1 {
+    text-shadow: 2px 2px 15px red;
+    margin-left: 200px;
+    font-size: 70px;
+    margin-top: -500px;
+}
+
+.info .article2 img {
+    width: 30%;
+    margin-left: 600px;
+    margin-top: -30px;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+
+.info .article3 h4 {
+    font-size: 24px;
+    margin-left: 800px;
+    margin-top: 400px;
+    margin-bottom: 15px;
+}
+
+.info .article3 .text p {
+    width: 25%;
+    margin-left: 800px;
+}
+
+.info .article3 h1 {
+    text-shadow: 2px 2px 15px gray;
+    margin-left: 1020px;
+    margin-top: -500px;
+    font-size: 70px;
+}
+
+.info .article3 img {
+    width: 27%;
+    margin-left: 200px;
+    margin-top: -1px;
+    margin-bottom: 200px;
+    cursor: pointer;
+}
+
+.info .article4 h4 {
+    font-size: 24px;
+    margin-top: 400px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+
+.info .article4 .text p {
+    width: 25%;
+    margin-left: 200px;
+}
+
+.info .article4 {
+    margin-bottom: 400px;
+}
+
+.info .article4 h1 {
+    text-shadow: 2px 2px 15px #0061A8;
+    margin-left: 200px;
+    font-size: 70px;
+    margin-top: -700px;
+}
+
+.info .article4 img {
+    position: relative;
+    width: 30%;
+    margin-left: 650px;
+    margin-top: -30px;
+    margin-bottom: 405px;
+    cursor: pointer;
+}
